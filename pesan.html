@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+    body{
+        background-color: bisque;
+    }
+h1 { font-family: Ubuntu; }
+p1 { font-family: Droid Sans; margin-left: 400px; }
+ul { font-family: droid Sans; list-style: none; }
+p3 {margin-left: 350px; }
+p0 { margin-left: 400px; }
+li { margin-left: 350px; }
+label { cursor: pointer; display: block; }
+textarea { width: 300px; height: 110px; }
+p4 {margin-left: 500px; font-family: ubuntu ; font-size: 20px; }
+
+</style>
+</head>
+<body>
+<p4> <strong> FORM PEMESANAN || CraftMils ||</p4> </strong> <br>
+<hr />
+<p1> Silahkan isi form di bawah ini untuk melakukan pemesanan barang </p1>
+
+<form action="" method="get">
+<ul>
+<li>
+<label for="nama"> Nama Pemesan : </label>
+<input id="nama" name="namamu" />
+</li>
+<br>
+<li>
+<label for="alamat"> Alamat Lengkap :  </label><br>
+<textarea id="alamat" name="alamat"></textarea>
+</li> <br>
+<li>
+<label for="nomorhp"> Nomor Handphone : </label>
+<input id="nomorhp" name="nomorhpmu" />
+</li> <br>
+
+<li>
+<label for="e-mail"> Alamat E-Mail : </label>
+<input id="e-mail" name="e-mail" />
+</li> <br>
+<p3> PESANAN </p3>
+<li>
+<label for="pesanan"> Pilih Salah Satu Pesanan : </label>
+<input type="checkbox" /> Perlengkapan Alat Sholat </input> <br>
+<input type="checkbox" /> Jilbab </input> <br>
+<input type="checkbox" /> Accessories </input> <br>
+<input type="checkbox" /> Totebag </input> <br>
+</li> <br>
+<li>
+<label for="barang"> Perlengkapan Alat Solat </label><select>
+<option>Pilih Barang </option>
+<option >Sajadah Travel (Dark Blue)</option>
+<option >Sajadah Travel (Pink)</option>
+<option>Sajadah Travel (Light Blue)</option>
+</li> </select><br>
+<li>
+        <label for="barang"> Jilbab </label><select>
+        <option>Pilih Barang </option>
+        <option >Jilbab Segiempat (Dark Blue)</option>
+        <option >Jilbab Segiempat (Pink)</option>
+        <option>Jilbab Segiempat (Light Blue)</option>
+        <option>Jilbab Segiempat (Purple)</option>
+        </li> </select><br>
+        <li>
+            <label for="barang"> Accessories </label><select>
+            <option>Pilih Barang </option>
+            <option>Handshock</option>
+            <option>Kaos Kaki</option>
+            <option>Strep Masker</option>
+            <option>Masker KF94</option>
+            </li> </select><br>
+            <li>
+                <label for="barang"> Totebag </label><select>
+                <option>Pilih Barang </option>
+                <option >Totebag Canvas (Pink)</option>
+                <option >Totebag Canvas (White)</option>
+                <option>Totebag Canvas (Dark Blue)</option>
+                <option>Totebag Canvas (Black)</option>
+                </li> </select><br>
+<li>
+        <label for="jumlah"> Jumlah Pesanan : </label>
+<input id="jumlah" name="jumlah" />
+<tr>
+<td>
+<br>
+<button type="submit" onclick="alert('Terima Kasih sudah berbelanja.')">Kirim</button>
+<button type="back" onclick="goback()">Back</button>
+</td>
+</tr>
+
+</ul>
+</form>
+
+</body>
+</html>
